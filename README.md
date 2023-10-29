@@ -37,7 +37,7 @@ The main logic of the app is placed at the `store` level and `view`(components) 
 
 For the implementation, I've used the following data structures:
 
-- simple object for storing skill trees
+- simple map for storing skill trees
 - double linked list for each tree, with "links"(represented by id, so it's not not real linked list) to prev and next items.
 - map for quick access to the skill, this way I can effectively get full info about the skill by id
 - Set for storing selected skills by compound key(from skill tree and skill id), which allows us not to check if the item is unique every time and we can theoretically use skill in both trees if we want.
