@@ -1,0 +1,22 @@
+.pointsCounter {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  background-color: #06090a;
+  border: 1px solid #111314;
+}
+
+.counter {
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5em;
+  color: #3a5269
+}

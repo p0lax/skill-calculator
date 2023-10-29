@@ -1,0 +1,19 @@
+.connection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.inner {
+  height: 16px;
+  width: 100%;
+  min-width: 20px;
+  background-color: #1b1d1e;
+  border: 1px solid #1d1f21;
+}
+
+.inner.active {
+  background-color: #313133;
+  border-color: #3e3f40;
+}
