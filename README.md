@@ -42,10 +42,13 @@ For the implementation, I've used the following data structures:
 - map for quick access to the skill, this way I can effectively get full info about the skill by id
 - Set for storing selected skills by compound key(from skill tree and skill id), which allows us not to check if the item is unique every time and we can theoretically use skill in both trees if we want.
 
-## Solution limitations
+## Solution limitations and potential improvements
 
 - selected data structure covers all the requirements in case the skill tree has only one connection per skill. In case we would like to implement a more complex structure of the skill tree we should consider a different way of storing data. I've considered other options but decided not to overengineer the simple task with cumbersome data structures for all the cases.
-- sizes of some items(and some colors) are different compared to the example because I didn't have the possibility to measure it precisely.
-- I didn't have time to all the code quality tools setup, so the project doesn't have a prettier and full set of linter rules
-- I covered only basic scenarios and stores with tests, because of the lack of time
+- sizes of some items(and some colors) are different comparing to the example because I didn't have the possibility to measure it precisely.
+- code quality tools setup might be improved by introducing prettier and full set of linter rules
+- only basic scenarios and stores are covered with tests, because of the lack of time
 - tool is not tested with other tree configuration, so increasing amount of skills per tree will break the layout
+- CSS colors might be unified, stored in variables more systematic way
+
+I tried to be reasonable regarding the time I spent on the task, so I skipped the implementation of some of the points above and decided to list them. This way I want to expose they were not missed by me.
