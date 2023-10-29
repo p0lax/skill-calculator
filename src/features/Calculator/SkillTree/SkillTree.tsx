@@ -6,6 +6,11 @@ import { SkillConnection } from "./SkillConnection/SkillConnection";
 import { SkillTreeNode, SkillTreeType } from "types/calculator.types";
 import { useDataStore } from "stores/store.context.hook";
 
+const skillTreeNameMap: Record<SkillTreeType, string> = {
+  path1: "Talent Path 1",
+  path2: "Talent Path 2",
+};
+
 type SkillTreeProps = {
   treeId: SkillTreeType;
   tree: SkillTreeNode[];
@@ -18,7 +23,7 @@ export const SkillTree = observer(({ tree, treeId }: SkillTreeProps) => {
 
   return (
     <div className={styles.skillTree} data-testid="skill-tree">
-      <div className={styles.title}>Talent Path 1</div>
+      <div className={styles.title}>{skillTreeNameMap[treeId]}</div>
       <div className={styles.tree}>
         {tree.map(({ skill, next, prev }) => {
           const isSelected = isSkillSelected(treeId, skill.id);

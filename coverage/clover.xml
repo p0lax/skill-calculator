@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1698585721851" clover="3.2.0">
-  <project timestamp="1698585721851" name="All files">
-    <metrics statements="298" coveredstatements="296" conditionals="36" coveredconditionals="35" methods="17" coveredmethods="17" elements="351" coveredelements="348" complexity="0" loc="298" ncloc="298" packages="9" files="11" classes="11"/>
+<coverage generated="1698590764782" clover="3.2.0">
+  <project timestamp="1698590764783" name="All files">
+    <metrics statements="303" coveredstatements="301" conditionals="36" coveredconditionals="35" methods="17" coveredmethods="17" elements="356" coveredelements="353" complexity="0" loc="303" ncloc="303" packages="9" files="11" classes="11"/>
     <package name="features.Calculator">
       <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="Calculator.tsx" path="D:\projects\skill-calculator3\src\features\Calculator\Calculator.tsx">
+      <file name="Calculator.tsx" path="D:\projects\skill-tree\src\features\Calculator\Calculator.tsx">
         <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -23,7 +23,7 @@
     </package>
     <package name="features.Calculator.CalculatorBody">
       <metrics statements="26" coveredstatements="26" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
-      <file name="CalculatorBody.tsx" path="D:\projects\skill-calculator3\src\features\Calculator\CalculatorBody\CalculatorBody.tsx">
+      <file name="CalculatorBody.tsx" path="D:\projects\skill-tree\src\features\Calculator\CalculatorBody\CalculatorBody.tsx">
         <metrics statements="26" coveredstatements="26" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -55,7 +55,7 @@
     </package>
     <package name="features.Calculator.CalculatorHeader">
       <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="CalculatorHeader.tsx" path="D:\projects\skill-calculator3\src\features\Calculator\CalculatorHeader\CalculatorHeader.tsx">
+      <file name="CalculatorHeader.tsx" path="D:\projects\skill-tree\src\features\Calculator\CalculatorHeader\CalculatorHeader.tsx">
         <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -69,7 +69,7 @@
     </package>
     <package name="features.Calculator.PointsCounter">
       <metrics statements="17" coveredstatements="17" conditionals="1" coveredconditionals="1" methods="0" coveredmethods="0"/>
-      <file name="PointsCounter.tsx" path="D:\projects\skill-calculator3\src\features\Calculator\PointsCounter\PointsCounter.tsx">
+      <file name="PointsCounter.tsx" path="D:\projects\skill-tree\src\features\Calculator\PointsCounter\PointsCounter.tsx">
         <metrics statements="17" coveredstatements="17" conditionals="1" coveredconditionals="1" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -91,9 +91,9 @@
       </file>
     </package>
     <package name="features.Calculator.SkillTree">
-      <metrics statements="43" coveredstatements="43" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
-      <file name="SkillTree.tsx" path="D:\projects\skill-calculator3\src\features\Calculator\SkillTree\SkillTree.tsx">
-        <metrics statements="43" coveredstatements="43" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <metrics statements="48" coveredstatements="48" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="SkillTree.tsx" path="D:\projects\skill-tree\src\features\Calculator\SkillTree\SkillTree.tsx">
+        <metrics statements="48" coveredstatements="48" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -107,41 +107,46 @@
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="28" type="stmt"/>
-        <line num="16" count="28" type="stmt"/>
-        <line num="17" count="28" type="stmt"/>
-        <line num="18" count="28" type="stmt"/>
-        <line num="19" count="28" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="20" count="28" type="stmt"/>
         <line num="21" count="28" type="stmt"/>
         <line num="22" count="28" type="stmt"/>
-        <line num="23" count="28" type="cond" truecount="1" falsecount="0"/>
-        <line num="24" count="112" type="stmt"/>
-        <line num="25" count="112" type="stmt"/>
-        <line num="26" count="112" type="stmt"/>
-        <line num="27" count="112" type="stmt"/>
-        <line num="28" count="112" type="stmt"/>
+        <line num="23" count="28" type="stmt"/>
+        <line num="24" count="28" type="stmt"/>
+        <line num="25" count="28" type="stmt"/>
+        <line num="26" count="28" type="stmt"/>
+        <line num="27" count="28" type="stmt"/>
+        <line num="28" count="28" type="cond" truecount="1" falsecount="0"/>
         <line num="29" count="112" type="stmt"/>
-        <line num="30" count="112" type="cond" truecount="1" falsecount="0"/>
-        <line num="31" count="112" type="cond" truecount="1" falsecount="0"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
-        <line num="34" count="2" type="stmt"/>
-        <line num="35" count="112" type="stmt"/>
+        <line num="30" count="112" type="stmt"/>
+        <line num="31" count="112" type="stmt"/>
+        <line num="32" count="112" type="stmt"/>
+        <line num="33" count="112" type="stmt"/>
+        <line num="34" count="112" type="stmt"/>
+        <line num="35" count="112" type="cond" truecount="1" falsecount="0"/>
         <line num="36" count="112" type="cond" truecount="1" falsecount="0"/>
-        <line num="37" count="112" type="stmt"/>
-        <line num="38" count="112" type="stmt"/>
-        <line num="39" count="28" type="stmt"/>
-        <line num="40" count="28" type="stmt"/>
-        <line num="41" count="28" type="stmt"/>
-        <line num="42" count="28" type="stmt"/>
-        <line num="43" count="28" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="112" type="stmt"/>
+        <line num="41" count="112" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="112" type="stmt"/>
+        <line num="43" count="112" type="stmt"/>
+        <line num="44" count="28" type="stmt"/>
+        <line num="45" count="28" type="stmt"/>
+        <line num="46" count="28" type="stmt"/>
+        <line num="47" count="28" type="stmt"/>
+        <line num="48" count="28" type="stmt"/>
       </file>
     </package>
     <package name="features.Calculator.SkillTree.SkillConnection">
       <metrics statements="16" coveredstatements="16" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="SkillConnection.tsx" path="D:\projects\skill-calculator3\src\features\Calculator\SkillTree\SkillConnection\SkillConnection.tsx">
+      <file name="SkillConnection.tsx" path="D:\projects\skill-tree\src\features\Calculator\SkillTree\SkillConnection\SkillConnection.tsx">
         <metrics statements="16" coveredstatements="16" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -163,7 +168,7 @@
     </package>
     <package name="features.Calculator.SkillTree.SkillItem">
       <metrics statements="31" coveredstatements="31" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="SkillItem.tsx" path="D:\projects\skill-calculator3\src\features\Calculator\SkillTree\SkillItem\SkillItem.tsx">
+      <file name="SkillItem.tsx" path="D:\projects\skill-tree\src\features\Calculator\SkillTree\SkillItem\SkillItem.tsx">
         <metrics statements="31" coveredstatements="31" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -200,7 +205,7 @@
     </package>
     <package name="stores">
       <metrics statements="25" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
-      <file name="rootStore.ts" path="D:\projects\skill-calculator3\src\stores\rootStore.ts">
+      <file name="rootStore.ts" path="D:\projects\skill-tree\src\stores\rootStore.ts">
         <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -216,7 +221,7 @@
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
       </file>
-      <file name="store.context.hook.ts" path="D:\projects\skill-calculator3\src\stores\store.context.hook.ts">
+      <file name="store.context.hook.ts" path="D:\projects\skill-tree\src\stores\store.context.hook.ts">
         <metrics statements="12" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -234,7 +239,7 @@
     </package>
     <package name="stores.calculator">
       <metrics statements="119" coveredstatements="119" conditionals="20" coveredconditionals="20" methods="8" coveredmethods="8"/>
-      <file name="calculator.const.ts" path="D:\projects\skill-calculator3\src\stores\calculator\calculator.const.ts">
+      <file name="calculator.const.ts" path="D:\projects\skill-tree\src\stores\calculator\calculator.const.ts">
         <metrics statements="46" coveredstatements="46" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -283,7 +288,7 @@
         <line num="45" count="1" type="stmt"/>
         <line num="46" count="1" type="stmt"/>
       </file>
-      <file name="calculator.ts" path="D:\projects\skill-calculator3\src\stores\calculator\calculator.ts">
+      <file name="calculator.ts" path="D:\projects\skill-tree\src\stores\calculator\calculator.ts">
         <metrics statements="73" coveredstatements="73" conditionals="20" coveredconditionals="20" methods="8" coveredmethods="8"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
